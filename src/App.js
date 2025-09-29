@@ -1,6 +1,7 @@
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import homepageImage from './assets/images/homepage.png';
+import elephant from './assets/images/elephant.jpg';
 import styles from './App.module.css';
 
 function App() {
@@ -33,6 +34,9 @@ function App() {
               <p>Доставка рабочих к объектам в условиях полного бездорожья</p>
               <p><strong>Стоимость:</strong> индивидуальный расчет</p>
             </div>
+          </div>
+          <div className={styles.separator}>
+            <img src={elephant} alt="Слон"></img>
           </div>
         </section>
         <section id="contacts" className={styles.contacts}>
